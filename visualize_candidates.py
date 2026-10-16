@@ -68,3 +68,85 @@ def resolve_path(value):
         return path
 
     return PROJECT_ROOT / path
+
+
+fig, axes = plt.subplots(1, 2, figsize=(14, 8))
+fig.subplots_adjust(top=0.82, bottom=0.15, wspace=0.08)
+
+
+def show_current():
+    row = candidates.iloc[position]
+
+    for ax, column, label in zip(
+        axes,
+        ["image_a", "image_b"],
+        ["Imagen A", "Imagen B"],
+    ):
+        ax.clear()
+        ax.axis("off")
+
+        path = resolve_path(row[column])
+
+        try:
+            with Image.open(path) as image:
+                image = ImageOps.exif_transpose(image).convert("RGB")
+                image.thumbnail((1200, 1200))
+                ax.imshow(image.copy())
+
+            ax.set_title(f"{label}\n{path.name}", fontsize=10)
+
+        except Exception as error:
+            ax.set_title(label)
+            ax.text(
+                0.5,
+                0.5,
+                f"No se pudo abrir:\n{path}\n\n{error}",
+                ha="center",
+                va="center",
+                transform=ax.transAxes,
+                wrap=True,
+            )
+
+    decision = row.get("decision", "") or "Sin registrar"
+
+    fig.suptitle(
+        f"Par {position + 1} de {len(candidates)} "
+        f"| Índice: {position}\n"
+        f"pHash distance: {row['phash_distance']} "
+        f"| Decisión: {decision}",
+        fontsize=12,
+    )
+
+    footer.set_text(
+        f"A: {row['image_a']}\n"
+        f"B: {row['image_b']}\n\n"
+        "→ / Espacio: siguiente    ←: anterior    Esc: salir"
+    )
+
+    fig.canvas.draw_idle()
+
+
+def on_key(event):
+    global position
+
+    if event.key in ("right", " ", "space"):
+        position = min(position + 1, len(candidates) - 1)
+        show_current()
+
+    elif event.key == "left":
+        position = max(position - 1, 0)
+        show_current()
+
+    elif event.key == "escape":
+        plt.close(fig)
+
+
+footer = fig.text(0.02, 0.02, "", fontsize=8, va="bottom")
+fig.canvas.mpl_connect("key_press_event", on_key)
+
+# Evita que las flechas activen también la navegación de Matplotlib.
+for shortcut in ("keymap.back", "keymap.forward"):
+    plt.rcParams[shortcut] = []
+
+show_current()
+plt.show()
