@@ -1,0 +1,25 @@
+final_label,source,split,count
+healthy,Multi-Crop Leaf Disease,test,88
+healthy,Multi-Crop Leaf Disease,train,350
+healthy,Multi-Crop Leaf Disease,validation,62
+healthy,PlantVillage,test,150
+healthy,PlantVillage,train,682
+healthy,PlantVillage,validation,164
+healthy,teaLeafBD,test,126
+healthy,teaLeafBD,train,667
+healthy,teaLeafBD,validation,138
+mango_gall_midge,Multi-Crop Leaf Disease,test,74
+mango_gall_midge,Multi-Crop Leaf Disease,train,347
+mango_gall_midge,Multi-Crop Leaf Disease,validation,74
+tea_green_mirid,teaLeafBD,test,189
+tea_green_mirid,teaLeafBD,train,883
+tea_green_mirid,teaLeafBD,validation,189
+tea_helopeltis,teaLeafBD,test,89
+tea_helopeltis,teaLeafBD,train,418
+tea_helopeltis,teaLeafBD,validation,89
+tea_red_mites,teaLeafBD,test,76
+tea_red_mites,teaLeafBD,train,356
+tea_red_mites,teaLeafBD,validation,76
+tomato_red_mites,PlantVillage,test,150
+tomato_red_mites,PlantVillage,train,700
+tomato_red_mites,PlantVillage,validation,150
