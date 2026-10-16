@@ -1,0 +1,52 @@
+path,reason,related_paths,n_pairs,phash_distance_min,sha256,source,crop,final_label
+data/raw/multicrop/mango_gall_midge/mango gall midge (201).jpg,confirmed_perceptual_duplicate,data/raw/multicrop/mango_gall_midge/mango gall midge (200).jpg,1,0,,Multi-Crop Leaf Disease,mango,mango_gall_midge
+data/raw/multicrop/mango_gall_midge/mango gall midge (312).jpg,confirmed_perceptual_duplicate,data/raw/multicrop/mango_gall_midge/mango gall midge (310).jpg,1,4,,Multi-Crop Leaf Disease,mango,mango_gall_midge
+data/raw/multicrop/mango_gall_midge/mango gall midge (340).jpg,confirmed_perceptual_duplicate,data/raw/multicrop/mango_gall_midge/mango gall midge (339).jpg,1,0,,Multi-Crop Leaf Disease,mango,mango_gall_midge
+data/raw/multicrop/mango_gall_midge/mango gall midge (341).jpg,confirmed_perceptual_duplicate,data/raw/multicrop/mango_gall_midge/mango gall midge (339).jpg;data/raw/multicrop/mango_gall_midge/mango gall midge (340).jpg,2,2,,Multi-Crop Leaf Disease,mango,mango_gall_midge
+data/raw/multicrop/mango_gall_midge/mango gall midge (452).jpg,confirmed_perceptual_duplicate,data/raw/multicrop/mango_gall_midge/mango gall midge (451).jpg,1,2,,Multi-Crop Leaf Disease,mango,mango_gall_midge
+data/raw/plantvillage/healthy/240a9583-9e6a-446d-8850-62bc23312ce9___GH_HL Leaf 312.4.JPG,confirmed_perceptual_duplicate,data/raw/plantvillage/healthy/0b330273-890c-4995-af72-cba070fc0061___GH_HL Leaf 312.JPG,1,4,,PlantVillage,tomato,healthy
+data/raw/tealeafbd/healthy/healthy_00294.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/healthy/healthy_00293.jpg,1,2,,teaLeafBD,tea,healthy
+data/raw/tealeafbd/healthy/healthy_00332.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/healthy/healthy_00331.jpg,1,2,,teaLeafBD,tea,healthy
+data/raw/tealeafbd/healthy/healthy_00346.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/healthy/healthy_00345.jpg,1,2,,teaLeafBD,tea,healthy
+data/raw/tealeafbd/healthy/healthy_00837.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/healthy/healthy_00796.jpg,1,4,,teaLeafBD,tea,healthy
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00389.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00388.jpg,1,2,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00483.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00480.jpg,1,4,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00487.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00486.jpg,1,2,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00488.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00486.jpg;data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00487.jpg,2,2,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00500.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00499.jpg,1,4,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00516.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00515.jpg,1,4,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00522.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00521.jpg,1,2,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00546.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00544.jpg,1,4,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00548.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00547.jpg,1,4,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00564.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00563.jpg,1,4,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00567.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00566.jpg,1,2,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00581.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00580.jpg,1,4,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00603.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00602.jpg,1,4,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00650.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00649.jpg,1,4,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00651.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00649.jpg;data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00650.jpg,2,2,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00690.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00689.jpg,1,0,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00791.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00790.jpg,1,4,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00803.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00801.jpg,1,4,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00858.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_00857.jpg,1,4,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_01049.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_01048.jpg,1,4,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_01073.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_green_mirid_bug/green_mirid_bug_01072.jpg,1,2,,teaLeafBD,tea,tea_green_mirid
+data/raw/tealeafbd/tea_helopeltis/helopeltis_00005.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_helopeltis/helopeltis_00004.jpg,1,4,,teaLeafBD,tea,tea_helopeltis
+data/raw/tealeafbd/tea_helopeltis/helopeltis_00138.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_helopeltis/helopeltis_00137.jpg,1,4,,teaLeafBD,tea,tea_helopeltis
+data/raw/tealeafbd/tea_helopeltis/helopeltis_00144.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_helopeltis/helopeltis_00143.jpg,1,2,,teaLeafBD,tea,tea_helopeltis
+data/raw/tealeafbd/tea_helopeltis/helopeltis_00151.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_helopeltis/helopeltis_00150.jpg,1,2,,teaLeafBD,tea,tea_helopeltis
+data/raw/tealeafbd/tea_helopeltis/helopeltis_00156.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_helopeltis/helopeltis_00155.jpg,1,2,,teaLeafBD,tea,tea_helopeltis
+data/raw/tealeafbd/tea_helopeltis/helopeltis_00179.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_helopeltis/helopeltis_00178.jpg,1,4,,teaLeafBD,tea,tea_helopeltis
+data/raw/tealeafbd/tea_helopeltis/helopeltis_00211.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_helopeltis/helopeltis_00210.jpg,1,2,,teaLeafBD,tea,tea_helopeltis
+data/raw/tealeafbd/tea_helopeltis/helopeltis_00264.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_helopeltis/helopeltis_00263.jpg,1,2,,teaLeafBD,tea,tea_helopeltis
+data/raw/tealeafbd/tea_helopeltis/helopeltis_00291.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_helopeltis/helopeltis_00290.jpg,1,4,,teaLeafBD,tea,tea_helopeltis
+data/raw/tealeafbd/tea_helopeltis/helopeltis_00490.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_helopeltis/helopeltis_00489.jpg,1,4,,teaLeafBD,tea,tea_helopeltis
+data/raw/tealeafbd/tea_helopeltis/helopeltis_00548.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_helopeltis/helopeltis_00547.jpg,1,0,,teaLeafBD,tea,tea_helopeltis
+data/raw/tealeafbd/tea_red_mites/red_spider_00077.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_red_mites/red_spider_00076.jpg,1,2,,teaLeafBD,tea,tea_red_mites
+data/raw/tealeafbd/tea_red_mites/red_spider_00095.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_red_mites/red_spider_00094.jpg,1,4,,teaLeafBD,tea,tea_red_mites
+data/raw/tealeafbd/tea_red_mites/red_spider_00102.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_red_mites/red_spider_00101.jpg,1,4,,teaLeafBD,tea,tea_red_mites
+data/raw/tealeafbd/tea_red_mites/red_spider_00123.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_red_mites/red_spider_00122.jpg,1,4,,teaLeafBD,tea,tea_red_mites
+data/raw/tealeafbd/tea_red_mites/red_spider_00130.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_red_mites/red_spider_00129.jpg,1,4,,teaLeafBD,tea,tea_red_mites
+data/raw/tealeafbd/tea_red_mites/red_spider_00199.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_red_mites/red_spider_00198.jpg,1,2,,teaLeafBD,tea,tea_red_mites
+data/raw/tealeafbd/tea_red_mites/red_spider_00227.jpg,confirmed_perceptual_duplicate,data/raw/tealeafbd/tea_red_mites/red_spider_00226.jpg,1,0,,teaLeafBD,tea,tea_red_mites
+data/raw/plantvillage/healthy/34c81c57-e1fa-49dd-a49d-34fe8b2385fe___GH_HL Leaf 466.1.JPG,exact_duplicate,data/raw/plantvillage/healthy/068e324c-faf6-40d6-8f83-578907f1cac5___GH_HL Leaf 466.1.JPG,1,,2a05a74db3a270ac0ec77c00ebe89a332eed589819435129cc3c29eb6e701eb2,PlantVillage,tomato,healthy
+data/raw/plantvillage/healthy/505465db-407b-4e0a-8110-7479dad5261c___GH_HL Leaf 389.JPG,exact_duplicate,data/raw/plantvillage/healthy/37203047-d8ba-43f7-b31e-d496c41c569c___GH_HL Leaf 389.JPG,1,,addddf5cb2a74192c9836be70fc223659062675eb325d55429c341a0c44937d0,PlantVillage,tomato,healthy
